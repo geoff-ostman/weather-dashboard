@@ -1,4 +1,4 @@
-const weatherAPI = "https://api.qweather.com/v7/weather/now?[请求参数]"
+const weatherAPI = "http://api.openweathermap.org/data/2.5/weather?id={city id}&appid={7ac6704f97ab9101ae66ec2d6fc627d8}"
 
     fetch (weatherAPI)
         .then (function(resp) {
@@ -16,9 +16,8 @@ const r_text = new Array ();
     r_text[4] = "fair weather friends";
     r_text[5] = "throwing caution to the wind";
     r_text[6] = "chasing rainbows";
-    r_text[7] = "your mom";
 
-    const i = Math.floor(8 * Math.random())
+    const i = Math.floor(7 * Math.random())
 
     document.write(r_text[i]);
 
