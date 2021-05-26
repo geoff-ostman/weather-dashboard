@@ -41,9 +41,8 @@ const r_text = new Array ();
     r_text[4] = "fair weather friends";
     r_text[5] = "throwing caution to the wind";
     r_text[6] = "chasing rainbows";
-    r_text[7] = "Stacy's mom got it going on";
 
-    const i = Math.floor(8 * Math.random())
+    const i = Math.floor(7 * Math.random())
 
     document.write(r_text[i]);
 
