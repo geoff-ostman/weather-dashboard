@@ -9,7 +9,6 @@ const getLocation = async() => {
     }
   }
   
-  
   const getWeather = async(currentCity) => {
     const response = await
     fetch("http://api.openweathermap.org/data/2.5/weather?id={city id}&appid={7ac6704f97ab9101ae66ec2d6fc627d8}");
